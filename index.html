@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOOMLY | Shop Smart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <header>
+
+        <div class="logo-section">
+            <img src="shop.png" alt="ZOOMLY Logo">
+            <div>
+                <h1>ZOOMLY</h1>
+                <p>SHOP SMART</p>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search products, categories and more...">
+        </div>
+
+        <div class="nav-icons">
+            <button><i class="fa-solid fa-user"></i> Account</button>
+            <button><i class="fa-solid fa-cart-shopping"></i> Cart</button>
+            <button id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+
+    </header>
+
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar" id="sidebar">
+
+        <h2>ZOOMLY MENU</h2>
+
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#offers">Offers</a>
+        <a href="#about">About Founder</a>
+        <a href="#contact">Contact</a>
+
+        <hr>
+
+        <h3>Account Section</h3>
+
+        <a href="#">Orders</a>
+        <a href="#">Profile</a>
+        <a href="#">Help Center</a>
+        <a href="#">Give Rating ⭐</a>
+
+    </div>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <h1>
+                India's Future <span>Digital Shopping</span> Startup
+            </h1>
+
+            <p>
+                ZOOMLY is a modern digital marketing and shopping startup idea focused on smart shopping,
+                fast experience, and future innovation.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="shop-btn">Explore Now</button>
+                <button class="learn-btn">Learn More</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="logo.png" alt="Zoomly">
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="categories" id="categories">
+
+        <h2>Top Categories</h2>
+
+        <div class="category-grid">
+
+            <div class="card">
+                <i class="fa-solid fa-shirt"></i>
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Electronics</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-book"></i>
+                <h3>Education</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-football"></i>
+                <h3>Sports</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Mobiles</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-heart"></i>
+                <h3>Cosmetics</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- OFFERS -->
+
+    <section class="offers" id="offers">
+
+        <h2>🔥 Trending Offers</h2>
+
+        <div class="offer-container">
+
+            <div class="offer-card">
+                <h3>50% OFF</h3>
+                <p>On Electronics</p>
+            </div>
+
+            <div class="offer-card">
+                <h3>Smart Fashion</h3>
+                <p>New Collection</p>
+            </div>
+
+            <div class="offer-card">
+                <h3>Free Delivery</h3>
+                <p>On First Order</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <h2>About Founder</h2>
+
+            <p>
+                 This is BADAL SINGH.I am a B.Tech Computer Science Engineering student with a strong interest in Data Analytics and problem-solving.
+                I am currently building my foundation in tools like Python, Excel, and SQL, and continuously improving my understanding
+                of data-driven decision making.
+            </p>
+
+            <p>
+                I enjoy working with data, exploring patterns, and creating simple insights through practice projects.
+                I believe in learning by doing and staying consistent, even when the process feels challenging.
+            </p>
+
+            <p>
+                My goal is to grow as a Data Analyst and contribute to real-world problems by using analytical thinking
+                and technical skills. I am open to learning opportunities, internships, and collaborations where I can
+                gain practical experience and improve my skills further.
+            </p>
+
+            <p>
+                Alongside technology and analytics, I am building <strong>ZOOMLY</strong> — a future startup focused on digital marketing,
+                smart shopping experience, and innovative online services.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+       <h2>Connect With ZOOMLY</h2>
+
+<form id="contact-form" class="contact-box">
+
+    <input type="text" name="name" placeholder="Enter your name" required>
+
+    <input type="email" name="email" placeholder="Enter your email" required>
+
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <h2>ZOOMLY 🛍️</h2>
+        <p>Dream Big • Build Bigger • Shop Smarter</p>
+        <p>Made By Badal Kumar</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("VQ5ZjLFb2T4M1BTiX");
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
